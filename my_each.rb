@@ -6,8 +6,9 @@ def my_each(array)
     yield(array[i])
     i +=1
   end
+  return array
 end
 
 my_each(array) do |i|
-  return array
+  return i
 end
