@@ -5,5 +5,3 @@ def my_each(array)
     yield(array[i])
   end
 end
-  # code here
-end
