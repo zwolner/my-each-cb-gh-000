@@ -10,5 +10,5 @@ end
 
 my_each(array) do |i|
   "i"
-  return i
+  return array
 end
